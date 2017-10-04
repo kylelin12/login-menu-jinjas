@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login for secret files</title>
+    </head>
+    <body>
+        <!-- When the form is submitted, redirect the user to the /loggedin route -->
+        <form action="/loggedin" method="POST">
+            <h5 style="margin-bottom: 0px;">Login:</h5>
+            <!-- The name of the username input is "username" -->
+            <input type="text" name="username" value="" placeholder="Username"/>
+            <br>
+            <input type="password" name="password" value="" placeholder="Password"/>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
